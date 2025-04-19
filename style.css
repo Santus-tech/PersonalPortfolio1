@@ -114,7 +114,7 @@ a:hover{
 
 section{
     padding-top: 4vh;
-    height:96vh;
+    height:60vh;
     margin:0 10rem;
     box-sizing:border-box;
     min-height:fit-content;
@@ -198,3 +198,145 @@ section{
    .btn-container{
        gap:1rem;
    }
+
+
+section {
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* Experience and Project Items */
+.experience-item, .project-item {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+}
+
+    .experience-item h3, .project-item h3 {
+        color: #333;
+        margin-bottom: 0.5rem;
+    }
+
+    .experience-item p, .project-item p {
+        color: #555;
+    }
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+    form label {
+        margin: 0.5rem 0 0.2rem 0;
+    }
+
+    form input, form textarea {
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    form button {
+        background: #333;
+        color: #fff;
+        border: none;
+        padding: 0.7rem;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+        form button:hover {
+            background: #ff6347;
+        }
+
+/* About Section Styles */
+#about {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+    #about img {
+        border-radius: 50%;
+        margin-right: 2rem;
+        width: 150px;
+        height: 150px;
+    }
+
+    #about .about-text {
+        max-width: 600px;
+    }
+/* Projects Section Styles */
+.projects-container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s, color 0.3s;
+}
+
+    .project-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        background-color: #000; /* Change background to black */
+        color: #fff; /* Change text to white */
+    }
+
+    .project-card h3 {
+        margin: 0 0 1rem 0;
+        color: inherit; /* Inherit text color */
+    }
+
+    .project-card p {
+        margin: 0 0 1rem 0;
+        color: inherit; /* Inherit text color */
+    }
+
+    .project-card a {
+        text-decoration: none;
+        color: #ff6347;
+    }
+
+        .project-card a:hover {
+            text-decoration: underline;
+        }
+
+/* Experience and Project Items */
+.experience-item, .project-item {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+}
+
+    .experience-item h3, .project-item h3 {
+        color: #333;
+        margin-bottom: 0.5rem;
+    }
+
+    .experience-item p, .project-item p {
+        color: #555;
+    }

@@ -6,3 +6,40 @@
         display:flex;
     }
 }
+@media (max-width: 600px) {
+    .section_pic-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+        .section_pic-container img {
+            margin: 0 0 1rem 0;
+            width: 120px; /* Larger size */
+            height: 120px; /* Larger size */
+        }
+
+    .about-text {
+        max-width: 100%;
+    }
+
+    header nav {
+        flex-direction: column;
+    }
+
+    section {
+        padding: 1rem;
+    }
+    .projects-container {
+        flex-direction: column;
+    }
+}
+/* Responsive Styles */
+@media (max-width: 600px) {
+    header nav {
+        flex-direction: column;
+    }
+
+    section {
+        padding: 1rem;
+    }
+}

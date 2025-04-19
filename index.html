@@ -41,7 +41,7 @@
     </nav>
     <section id="profile">
         <div class="section_pic-container">
-            <img src=".\assets\profile-pic.png"alt="Chris profile">
+            <img src=".\assets\profile-pic.png"alt="Chris profile"id="about-image">
         </div>
         <div class="section_text">
             <p class="section_text_p1">Hello, I`m</p>
@@ -60,6 +60,63 @@
 
          </div>
     </section>
+    <section id="experience">
+  <h2>Experience</h2>
+  <div class="experience-item">
+    <h3>Front-End Developer</h3>
+    <p>Jan 2023 - Present</p>
+    <p>
+      - Developed and maintained code for client websites primarily using HTML, CSS and JavaScript.
+    </p>
+    <p>
+      - Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness.
+    </p>
+  </div>
+  <div class="experience-item">
+    <h3>Computer Science Student</h3>
+    <p>Aug 2024 - May 2028</p>
+    <p>
+      - Learnt and implemented algorithms and data structures in various programming languages.
+    </p>
+    <p>
+      - Developed and tested software applications for various platforms as school projects.
+    </p>
+  </div>
+</section>
+   <section id="projects">
+  <h2>Projects</h2>
+  <div class="projects-container">
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>A personal portfolio website to showcase my skills and projects.</p>
+      <a href="https://github.com/Santus-tech" target="_blank">View on GitHub</a>
+       
+    </div>
+    <div class="project-card">
+      <h3>Graphic design website</h3>
+      <p>A personal website to showcase graphic design projects.</p>
+      <a href="https://github.com/Santus-tech" target="_blank">View on GitHub</a>
+        
+    </div>
+  </div>
+</section>
+
+    <section id="contact">
+  <h2>Contact</h2>
+  <form action="mailto:chrisgikonyo24@gmail.com" method="post" enctype="text/plain">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+    
+    <button type="submit">Send</button>
+  </form>
+</section>
+
     <script src="script.js"></script>
 </body> 
 </html>
